@@ -31,6 +31,7 @@ class ViewController: UIViewController {
 
     @IBAction func sendMailButtonPressed(sender: UIButton) {
         messageLabel.hidden = false
+        // das ist ein Kommentar für Github
         messageLabel.text = enterMessageTextfield.text;
         enterMessageTextfield.text = ""
         enterMessageTextfield.resignFirstResponder()
